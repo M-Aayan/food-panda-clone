@@ -7,11 +7,18 @@
     background-color: #FFFFFF;
     align-items: center;
     height: 90px;
-    box-shadow: 0px 0px 8px #E7E7E7;
+    box-shadow: 0px 0px 8px #7a7979;
+}
+.head{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
 }
 
 
-
+body{
+    max-width: 100%;
+}
 
 
 
@@ -38,10 +45,13 @@
     font-size: 14px;
     margin: 0px 0px 0px 970px;
     color: #39434D;
+    position: relative;
+
 }
 
 .login:hover {
-    background-color: #F0F2F2;
+    background-color: #F0F2F2; 
+    box-shadow: 0px 0px 8px #7a7979;
 }
 
 
@@ -61,6 +71,7 @@
 
 .sign-in:hover {
     background-color: #C21760;
+    box-shadow: 0px 0px 8px #C21760;
 }
 
 .enworld {
@@ -90,23 +101,37 @@
 .cartlogo {
     color: #39434D;
     margin: 8px 0px 0px 120px;
+    max-width: 100px;
 }
 
 
 .pandapic {
-    position: absolute;
-    right: -160px;
     bottom: -0px;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 100px;
+    margin: -330px 0px 0px 680px;
+    position: static;
+    /* right: -680px;
+    top: -330px; */
 }
 
+.flex{
+    display: flex;
+    justify-content: left;
+}
 
+.partner-image{
+    position: relative;
+    max-width: 100%;
+}
+.okok{
+    margin: 0px 0px 0px -20px;
+}
 
 .foodtext {
     font-size: 20px;
     color: #333333;
     
-    margin: 160px 0px 0px 140px;
+    margin: 250px 0px 0px 140px;
     font-family: Kanit;
 }
 
@@ -146,6 +171,7 @@
 
 .foodbtn:hover{
     background-color: #C21760;
+    box-shadow: 0px 0px 8px #C21760;
 }
 
 .back{
@@ -169,7 +195,7 @@
 
 
 .text3{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border: 1px solid rgb(255, 255, 255);
     height: 350px;
     width: 650px;
@@ -231,7 +257,7 @@
     border-radius: 8px;
     position: absolute;
     left: 80px;
-    bottom: -1020px;
+    bottom: -1000px;
     height: 20px;
     width: 80px;
     text-align: center;
@@ -247,7 +273,7 @@
     border-radius: 8px;
     position: absolute;
     left: 450px;
-     bottom: -1020px; 
+     bottom: -1000px; 
     /* height: 20px; */
     width: 80px;
     text-align: center;
@@ -263,7 +289,7 @@
     position: absolute;
     left: 820px;
     color: black;
-     bottom: -1020px; 
+     bottom: -1000px; 
     /* height: 20px; */
     width: 80px;
     text-align: center;
@@ -279,7 +305,7 @@
     position: absolute;
     left: 1200px;
     color:black;
-     bottom: -1020px; 
+     bottom: -1000px; 
     /* height: 20px; */
     width: 80px;
     text-align: center;
@@ -294,7 +320,7 @@
     position: absolute;
     left: 80px;
     color:black;
-     bottom: -1270px; 
+     bottom: -1260px; 
     /* height: 20px; */
     width: 85px;
     text-align: center;
@@ -308,7 +334,7 @@
     border-radius: 8px;
     position: absolute;
     left: 450px;
-     bottom: -1270px; 
+     bottom: -1260px; 
     /* height: 20px; */
     width: 90px;
     text-align: center;
@@ -323,7 +349,7 @@
     position: absolute;
     left: 820px;
     color: black;
-     bottom: -1270px; 
+     bottom: -1260px; 
     /* height: 20px; */
     width: 130px;
     text-align: center;
@@ -337,7 +363,7 @@
     position: absolute;
     left: 1200px;
     color:black;
-     bottom: -1270px; 
+     bottom: -1260px; 
     /* height: 20px; */
     width: 80px;
     text-align: center;
@@ -352,7 +378,7 @@
     position: absolute;
     left: 80px;
     color:black;
-     bottom: -1535px; 
+     bottom: -1520px; 
     /* height: 20px; */
     width: 85px;
     text-align: center;
@@ -367,7 +393,7 @@
     border-radius: 8px;
     position: absolute;
     left: 450px;
-     bottom: -1535px; 
+     bottom: -1520px; 
     /* height: 20px; */
     width: 90px;
     text-align: center;
@@ -382,7 +408,7 @@
     position: absolute;
     left: 820px;
     color: black;
-     bottom: -1535px; 
+     bottom: -1520px; 
     /* height: 20px; */
     width: 80px;
     text-align: center;
@@ -397,7 +423,7 @@
     position: absolute;
     left: 1200px;
     color:black;
-     bottom: -1535px; 
+     bottom: -1520px; 
     /* height: 20px; */
     width: 80px;
     text-align: center;
@@ -412,7 +438,7 @@
     position: absolute;
     left: 80px;
     color:black;
-     bottom: -1789px; 
+     bottom: -1780px; 
     /* height: 20px; */
     width: 85px;
     text-align: center;
@@ -426,7 +452,7 @@
     border-radius: 8px;
     position: absolute;
     left: 450px;
-     bottom: -1790px; 
+     bottom: -1780px; 
     /* height: 20px; */
     width: 90px;
     text-align: center;
@@ -441,7 +467,7 @@
     position: absolute;
     left: 820px;
     color: black;
-     bottom: -1790px; 
+     bottom: -1780px; 
     /* height: 20px; */
     width: 80px;
     text-align: center;
@@ -456,7 +482,7 @@
     position: absolute;
     left: 1200px;
     color:black;
-     bottom: -1790px; 
+     bottom: -1780px; 
     /* height: 20px; */
     width: 80px;
     text-align: center;
@@ -471,7 +497,7 @@
     position: absolute;
     left: 80px;
     color:black;
-     bottom: -2050px; 
+     bottom: -2040px; 
     /* height: 20px; */
     width: 85px;
     text-align: center;
@@ -485,7 +511,7 @@
     border-radius: 8px;
     position: absolute;
     left: 450px;
-     bottom: -2050px; 
+     bottom: -2040px; 
     /* height: 20px; */
     width: 90px;
     text-align: center;
@@ -500,7 +526,7 @@
     position: absolute;
     left: 820px;
     color: black;
-     bottom: -2050px; 
+     bottom: -2040px; 
     /* height: 20px; */
     width: 80px;
     text-align: center;
@@ -515,7 +541,7 @@
     position: absolute;
     left: 1200px;
     color:black;
-     bottom: -2050px; 
+     bottom: -2040px; 
     /* height: 20px; */
     width: 80px;
     text-align: center;
@@ -528,7 +554,7 @@
     font-family: fantasy;
     font-size: 35px;
     font-weight: lighter;
-    margin: 90px 0px 0px 190px;
+    margin: 90px 0px 40px 190px;
     color: #333333;
 
 }
@@ -596,7 +622,7 @@
     font-family: fantasy;
     font-size: 35px;
     font-weight: lighter;
-    margin: 70px 0px 0px 190px;
+    margin: 120px 0px 30px 190px;
     color: #333333;
     /* position: absolute;
     bottom: -2420px; */
@@ -831,4 +857,31 @@ hr{
     gap: 300px;
     justify-content: center;
     align-items: center;
+}
+.text35{
+    color: #333333;
+    font-family: Quicksand;
+    font-size: 17px;
+    font-weight: lighter;
+    margin:30px 0px 20px 190px;
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.static{
+    position: static;
+}
+
+.head1{
+    max-width: 100%;
+    margin: 0px auto;
+}
+
+.rawalpindi a{
+    text-decoration: none;
+    color: black;
 }
